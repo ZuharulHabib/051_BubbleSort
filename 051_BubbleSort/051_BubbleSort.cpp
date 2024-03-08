@@ -61,3 +61,10 @@ void bubbleSortArray() { //Method untuk mengurungkan array dengan metode bubble 
 }
 
 
+int main() {
+    //Membuat objek obj dari class Bubblesort
+    input();            //Memanggil read() dari class Bubblesort
+    bubbleSortArray();  //Memanggil bubbleSortArray() dari class BubbleSort
+    display();          //Memanggil display() dari class BubbleSort
+    return 0;
+}

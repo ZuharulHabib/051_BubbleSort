@@ -57,7 +57,7 @@ void bubbleSortArray() { //Method untuk mengurungkan array dengan metode bubble 
             cout << arr[k] << " ";  //menampilkan data pada number of pass
         }
         cout << endl;
-    } while (pass <= n - 1);
+    } while (pass <= n - 1); 
 }
 
 
